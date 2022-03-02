@@ -17,6 +17,7 @@
     <None Remove="Views\Shared\Components\Types\" />
     <None Remove="Pages\" />
     <None Remove="Infrastructure\" />
+    <None Remove="Views\Donation\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -31,6 +32,7 @@
     <Folder Include="Views\Shared\Components\Types\" />
     <Folder Include="Pages\" />
     <Folder Include="Infrastructure\" />
+    <Folder Include="Views\Donation\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />

@@ -40,11 +40,15 @@ namespace WaterProject
 
             // decoupling... each http request gets its own repository object
             services.AddScoped<IWaterProjectRepository, EFWaterProjectRepository>();
+            services.AddScoped<IDonationRepository, EFDonationRepository>();
+
 
             services.AddRazorPages();
 
             services.AddDistributedMemoryCache();
             services.AddSession();
+            services.AddScoped<Basket>(x => SessionBasket.GetBasket(x));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
         }
 

@@ -25,8 +25,8 @@
     </ul>
 
 
-
-    <form method="post" asp-page="/Donate">
+@*posting to the page /Donate (not going to the controller)*@
+    <form method="post" asp-page="/Donate"> 
         <input type="hidden" asp-for="@Model.ProjectId" />
         <input type="hidden" name="returnUrl" value="@ViewContext.HttpContext.Request.PathAndQuery()" />
         <span class="card-text">
