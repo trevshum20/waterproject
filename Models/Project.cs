@@ -13,6 +13,7 @@ namespace WaterProject.Models
         [Key]
         [Required]
         public int ProjectId { get; set; }
+        [Required]
         public string ProjectName { get; set; }
         public string ProjectType { get; set; }
         public string ProjectRegionalProgram { get; set; }
