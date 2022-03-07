@@ -18,6 +18,7 @@
     <None Remove="Pages\" />
     <None Remove="Infrastructure\" />
     <None Remove="Views\Donation\" />
+    <None Remove="Pages\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -33,6 +34,7 @@
     <Folder Include="Pages\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Views\Donation\" />
+    <Folder Include="Pages\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
